@@ -18,7 +18,6 @@ def mcm(n, m):
         mayor += 1
     return mayor
 
-
 print(mcm(1032,180))
 
 def mcm_2(n,m):

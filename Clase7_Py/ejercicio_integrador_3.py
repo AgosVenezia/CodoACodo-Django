@@ -16,6 +16,5 @@ def contar_palabras(texto):
             palabras[i] = 1
     return palabras
 
-
 texto = 'Como quieres que te quiera si el que quiero que me quiera no me quiere como quiero que me quiera'
 print(f"Cantidad de palabras: {contar_palabras(texto)}")

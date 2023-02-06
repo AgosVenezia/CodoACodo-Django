@@ -2,7 +2,6 @@
 
 import math
 
-
 def mcd(n, m):
     """Función que calcula el máximo común divisor de dos números utilizando el algoritmo de eucliedes.
     Parámetros:
@@ -18,9 +17,8 @@ def mcd(n, m):
         n = dividendo
     return n
 
-
 print(mcd(20,10))
-
+print(mcd(1568,987))
 
 def mcd_2(n, m):
     return math.gcd(n, m)
