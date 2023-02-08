@@ -6,7 +6,6 @@
 
 import ejercicio_integrador_excepciones
 
-
 class Persona():
     def __init__(self, nombre="", edad=0, dni=""):
         # Se hace uso de los setters en el constructor para pasar por la validacion
@@ -67,7 +66,6 @@ class Persona():
 
     def es_mayor_de_edad(self):
         return self.edad >= 18
-
 
 # Prueba de utilización de código
 juan = Persona("Alejandro", 39, "20188")
